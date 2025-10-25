@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3B1B5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#AB1313"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        />
+
+
+    <EditText android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o seu nome:"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o seu email:"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText android:id="@+id/edt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe a sua senha:"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+
+    <Button android:id="@+id/btn_entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#C52020"
+            android:text="Entrar"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+    <Button android:id="@+id/btn_criar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#7E7171"
+        android:text="Criar"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>
+
+    <CheckBox android:id="@+id/credencial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lembrar minhas credenciais"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
